@@ -1,0 +1,25 @@
+{
+    "_comment": "Sample ground-truth template. Fill in db_path and expected values from your own DB Browser for SQLite inspection.",
+
+    "db_path": "./cases/test_case/msgstore.db",
+
+    "expected_total_messages": 1523,
+
+    "known_messages": [
+        {
+            "sender": "John Doe",
+            "timestamp": "2026-07-01 14:32:00",
+            "content_contains": "meeting tomorrow"
+        },
+        {
+            "sender": "Jane Smith",
+            "timestamp": "2026-07-02 09:15:00",
+            "content_contains": "sent a photo"
+        }
+    ],
+
+    "expected_wal_present": true,
+    "expected_recovered_message_count": 3,
+
+    "known_file_hash": "sha256:abcd1234567890abcdef1234567890abcdef1234567890abcdef1234567890ab"
+}

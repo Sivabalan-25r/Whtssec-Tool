@@ -1,0 +1,10 @@
+[tool.pyrefly]
+project-excludes = [
+    "c:/__pyrefly_virtual__/**",
+    "**/__pyrefly_virtual__/**"
+]
+
+[tool.pytest.ini_options]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+]

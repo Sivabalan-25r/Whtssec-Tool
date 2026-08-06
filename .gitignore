@@ -1,0 +1,21 @@
+# Case output data (evidence files, DBs, reports)
+cases/
+
+# Android platform tools binaries
+platform-tools/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Logs
+*.log
+
+# User settings
+.whtssec_forensic/
+
+# OS
+.DS_Store
+Thumbs.db
